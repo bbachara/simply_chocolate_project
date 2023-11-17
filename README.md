@@ -1,5 +1,7 @@
 https://beatafigielska-zyla.github.io/simply_chocolate_project/
 
+https://github.com/BeataFigielska-Zyla/simply_chocolate_project
+
 # parcel-project-template
 
 ## Zalezności
