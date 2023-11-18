@@ -22,12 +22,13 @@
   .chocolate {
     color: #111;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    line-height: 20px;
-    letter-spacing: -0.54px;
+    line-height: 18px;
+    letter-spacing: -0.42px;
   }
+
   .menu {
     display: none;
     gap: 50px;
@@ -62,7 +63,7 @@
     .chocolate {
       color: #111;
       font-family: Montserrat;
-      font-size: 18px;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
       line-height: 20px;
