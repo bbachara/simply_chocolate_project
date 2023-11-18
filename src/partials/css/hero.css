@@ -18,14 +18,13 @@
     rgba(17, 17, 17, 0) 0%,
     rgba(17, 17, 17, 0.4) 100%
   ),
-  url(/src/images/hero/chocolate-covered-cocoa-powder_desktop@1x.jpg),
+  url(/src/images/hero/chocolate.jpg),
   lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
     display: flex;
-    background-position: 74% 100%;
-    background-size: auto 621px;
+    background-position: 69%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    max-width: 1400px;
+    height: 90vh;
     justify-content: left;
     align-items: end;
     margin: 20px;
@@ -37,6 +36,7 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.6px;
+    
   }
 
   .button-1 {
@@ -154,14 +154,13 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url(/src/images/hero/chocolate-covered-cocoa-powder_desktop@1x.jpg),
+        url(/src/images/hero/chocolate.jpg),
         lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
         display: flex;
-        background-position: 71% 100%;
-        background-size: auto 621px;
+        background-position: 69%;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 600px;
-        max-width: 2500px;
+        height: 90vh;
         justify-content: center;
         align-items: end;
         margin: 20px;
@@ -269,14 +268,13 @@
         rgba(17, 17, 17, 0) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(/src/images/hero/chocolate-covered-cocoa-powder_desktop@1x.jpg),
+      url(/src/images/hero/chocolate.jpg),
       lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
     display: flex;
-    background-position: 71% 100%;
-    background-size: auto 621px;
+    background-position: 69%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    max-width: 2500px;
+    height: 90vh;
     justify-content: center;
     align-items: end;
     margin: 20px;
@@ -292,6 +290,7 @@
     justify-content: flex-start;
     gap: 10px;
     font-size: 28px;
+    
   }
   .hero-text {
     height: 200px;

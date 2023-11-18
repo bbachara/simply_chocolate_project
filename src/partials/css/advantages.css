@@ -39,7 +39,7 @@
         display: flex;
         flex-wrap: wrap;
         padding-left: 32px;
-        padding-top: 5px;
+        padding-top: 20px;
       }
       .advantages-element {
         width: calc(33.33% + 65px);
@@ -52,13 +52,13 @@
 @media (min-width: 1200px) {
 
     .advantages {
-        padding: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
         background-color: #1e1823;
         color: white;
         padding-right: 45px;
-        margin-top: 71px;
+        
         gap: 20px;
         display: flex;
         justify-content: space-between;
