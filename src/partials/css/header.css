@@ -8,6 +8,7 @@
     padding-left: 20px;
     font-size: 14px;
     margin-top: 19px;
+  
   }
   .navigation {
     display: flex;
@@ -47,7 +48,7 @@
   /*__________DESKTOP__________*/
 
 @media (min-width: 1200px) {
- 
+
   
     .header-container {
       display: flex;
@@ -73,14 +74,24 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+  
     }
     .menu {
       display: flex;
       gap: 24px;
+      
+    }
+    .social-icons{
+      width: 100px;
+    
+      justify-content: space-between;
+      align-items: center;
     }
     .social-icons li {
-      display: inline;
-      gap: 15px;
+      display: inline-flex;
+      gap: 30px;
+
+      
     }
     .menu a {
       text-decoration: none;

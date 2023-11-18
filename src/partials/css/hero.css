@@ -1,5 +1,16 @@
 /* __________MOBILE __________*/
-
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .hero {
     background: linear-gradient(
@@ -83,6 +94,7 @@
     font-weight: 500;
     line-height: 24px; /* 120% */
     letter-spacing: -0.6px;
+    width: 280px;
   }
 
   .button-container {
@@ -133,7 +145,7 @@
 
   /*__________TABLET*__________*/
 
-@media (min-width: 769px) and (max-width: 1199px) {
+@media (min-width: 769px)  {
 
     
       .hero {
@@ -161,7 +173,6 @@
         font-weight: 500;
         line-height: 24px;
         letter-spacing: -0.6px;
-        display: flex;
         justify-content: flex-start;
         gap: 10px;
         font-size: 28px;
@@ -177,6 +188,7 @@
         font-weight: 500;
         line-height: 34px;
         letter-spacing: -0.84px;
+        
       }
       .hero-container {
         gap: 0px;
@@ -235,6 +247,8 @@
       gap: 18px;
       justify-content: center;
       width: 200px;
+  
+
     }
     .white-circle:hover {
       background-color:#fd9222;
@@ -295,7 +309,6 @@
     margin-bottom: 20px;
     font-size: 28px;
     width: 100%;
-    padding-right: 60px;
   }
 
   .button-container {
@@ -345,6 +358,5 @@
     gap: 18px;
     justify-content: center;
     width: 200px;
-  }
-
+}
 }
