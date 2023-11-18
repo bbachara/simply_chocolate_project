@@ -1,0 +1,36 @@
+.top-selers-headline {
+    color: #FD9222;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.top-sellers-span {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.top-sellers-list {
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+    justify-content: center;
+    list-style: none;
+}
+
+.top-sellers-p {
+    
+}
