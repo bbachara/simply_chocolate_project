@@ -55,7 +55,6 @@
       justify-content: space-between;
       align-items: center;
       height: 24px;
-      padding-left: 20px;
       font-size: 14px;
       margin-top: 19px;
       margin-right: 20px;
@@ -64,11 +63,12 @@
     .chocolate {
       color: #111;
       font-family: Montserrat;
-      font-size: 14px;
+      font-size: 18px;
       font-style: normal;
       font-weight: 700;
       line-height: 20px;
       letter-spacing: -0.54px;
+      
     }
     .navigation {
       display: flex;
@@ -82,10 +82,13 @@
       
     }
     .social-icons{
+      display: inline-flex;
       width: 100px;
-    
       justify-content: space-between;
       align-items: center;
+      gap: 20px;
+      padding-right: 80px;
+      
     }
     .social-icons li {
       display: inline-flex;

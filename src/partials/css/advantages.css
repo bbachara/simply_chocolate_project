@@ -9,6 +9,7 @@
     padding-right: 45px;
     margin-top: 71px;
     gap: 20px;
+    padding-left: 20px;
   }
   
   .advantages-icons {
@@ -37,6 +38,8 @@
     .advantages {
         display: flex;
         flex-wrap: wrap;
+        padding-left: 32px;
+        padding-top: 5px;
       }
       .advantages-element {
         width: calc(33.33% + 65px);
@@ -50,8 +53,8 @@
 
     .advantages {
         padding: 20px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
         background-color: #1e1823;
         color: white;
         padding-right: 45px;
@@ -59,11 +62,13 @@
         gap: 20px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        
       }
       .mark {
         width: 1px;
         height: 124px;
         background: rgba(255, 255, 255, 0.5);
+        margin-top: 70px;
+        margin-right: 50px;
       }
     }
