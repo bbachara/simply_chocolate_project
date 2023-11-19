@@ -189,7 +189,7 @@ margin-bottom: 31px;
 }
 .mobile-menu .link:after{
   content: "";
-  position:absolute;
+  position: absolute;
   background-color: #fd9222;
   height: 0.3px;
   width: 0;
@@ -197,9 +197,14 @@ margin-bottom: 31px;
   margin: auto;
 }
 .mobile-menu .link:hover::after{
-  width: 50%;
+  width: 100%;
   transition: width 0.3s linear;
 }
+.mobile-menu .link:not(:hover)::after {
+  width: 0; 
+  transition: width 0.3s ease-out;  
+}
+
 
 .mobile-menu .link {
   padding: 10px;
@@ -211,6 +216,8 @@ margin-bottom: 31px;
   line-height: 24px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  display: inline-block;
+  position: relative;
 }
 
 .mobile-menu .link:hover {
