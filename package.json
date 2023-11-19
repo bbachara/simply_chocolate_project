@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "1.1.0",
   "description": "",
-  "homepage": "https://bbachara.github.io/simply_chocolate_project",
+  "homepage": "https://BeataFigielska-Zyla.github.io/simply_chocolate_project",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /simply_chocolate_project/"
