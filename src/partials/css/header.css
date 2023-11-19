@@ -30,6 +30,10 @@
     letter-spacing: -0.42px;
   }
 
+  .chocolate-title a{
+    text-decoration: none;
+  }
+
   .menu {
     display: none;
     gap: 50px;
