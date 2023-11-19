@@ -61,9 +61,11 @@
         padding-left: 32px;
         height: 620px;
         padding-top: 50px;
+        gap:30px;
       }
       .advantages-element {
         width: calc(33.33% + 65px);
+        
       }
       .own-product{
         margin-top: -50px;
