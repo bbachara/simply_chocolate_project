@@ -1,5 +1,5 @@
 /* __________MOBILE __________*/
-
+@media (min-width: 375px){
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -47,7 +47,7 @@
   .social-icons li {
     display: none;
   }
-
+}
 
   /*__________DESKTOP__________*/
 
