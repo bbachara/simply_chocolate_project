@@ -9,6 +9,8 @@
     padding-right: 45px;
     margin-top: 71px;
     gap: 20px;
+    padding-left: 20px;
+    height: 100%;
   }
   
   .advantages-icons {
@@ -21,6 +23,10 @@
     flex-shrink: 0;
     border-radius: 35px;
     border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+  }
+  .advantages-element {
+    display: block;
   }
   
   .advantages-text {
@@ -37,6 +43,8 @@
     .advantages {
         display: flex;
         flex-wrap: wrap;
+        padding-left: 32px;
+        padding-top: 20px;
       }
       .advantages-element {
         width: calc(33.33% + 65px);
@@ -49,21 +57,26 @@
 @media (min-width: 1200px) {
 
     .advantages {
-        padding: 20px;
+        padding-top: 30px;
         padding-left: 40px;
         padding-right: 40px;
         background-color: #1e1823;
         color: white;
         padding-right: 45px;
-        margin-top: 71px;
         gap: 20px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
       }
+      .advantages-element {
+       display: block;
+      }
+
       .mark {
         width: 1px;
         height: 124px;
         background: rgba(255, 255, 255, 0.5);
+        margin-top: 70px;
+        margin-right: 50px;
       }
     }
+    
