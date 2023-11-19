@@ -148,7 +148,7 @@ a {
 
 }
 
-@media screen and (min-width: 428px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     .container {
             padding: 0;
             width: 335px; 
@@ -161,7 +161,7 @@ a {
 
 
 .top-selers-section {
-        padding: 0 20px;
+        padding: 0 32px;
     }
 
     .container {
@@ -257,4 +257,55 @@ a {
         margin-right: auto;
     }
 
+}
+
+/* ================================================= DESKTOP  ========================================= */
+@media screen and (min-width: 1200px) {
+    
+    .top-selers-section {
+            padding: 0 32px;
+        }
+    
+        .container {
+            padding: 0;
+            width: 1136px;
+            margin: 0 auto;
+    
+        }
+    
+      
+
+        .top-sellers-list {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            justify-content: space-between;
+            row-gap: 32px;
+    
+        }
+    
+        .top-sellers-li:nth-child(3) {
+            display: block;
+        }
+    
+        .top-sellers-img {
+            width: 368px;
+            height: 464px;
+            border-radius: 15px;
+        }
+    
+        .top-sellers-p {
+            width: 407px;
+           
+    
+        }
+    
+        .top-sellers-button {
+           
+            font-size: 18px;
+            width: 162px;
+            height: 50px;
+            padding: 14px 40px;
+            
+        }
 }
