@@ -134,10 +134,10 @@
     justify-content: center;
     width: 120px;
   }
-  .white-circle:hover {
+  .white-circle:hover  {
     background-color:#fd9222;
   }
-  .arrow-svg:hover{
+  .white-circle:hover .arrow-svg{
     filter: brightness(0) saturate(100%) invert(91%) sepia(95%) saturate(0%) hue-rotate(134deg) brightness(107%) contrast(104%);
   }
 
@@ -252,9 +252,10 @@
     .white-circle:hover {
       background-color:#fd9222;
     }
-    .arrow-svg:hover{
+    .white-circle:hover .arrow-svg{
       filter: brightness(0) saturate(100%) invert(91%) sepia(95%) saturate(0%) hue-rotate(134deg) brightness(107%) contrast(104%);
     }
+  
 }
 
     /*__________DESKTOP__________*/
