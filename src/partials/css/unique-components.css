@@ -38,11 +38,21 @@
     font-size: 14px;
     text-align: center;
     color: #111;
-    margin: 0;
+    margin: 0 0 32px;
+    max-width: 335px;
+    align-self: center;
+    /*margin-bottom: 32px;*/
   }
 
   .list {
     list-style: none;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
   }
 
   /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -91,6 +101,16 @@
     align-items: flex-start;
   }
 
+  .flip-card-front.two {
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #fd9222;
+  }
+
+  .flip-card-front.three {
+    background-color: #1e1823;
+  }
+
   .front-card-title {
     color: #fff;
     font-style: normal;
@@ -101,6 +121,10 @@
     text-align: left;
     margin-left: 28px;
     margin-bottom: 28px;
+  }
+
+  .front-card-title.second {
+    color: #111;
   }
 
   .front-card-img {
