@@ -43,7 +43,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .title-section {
-    background-image: url('/src/images/subscribe/subcribe_mobile@2x.jpg');
+    background-image: url('/src/images/subscribe/subscribe_mobile@2x.jpg');
   }
 }
 .paragraph-chocolate {
@@ -142,7 +142,7 @@
   height: 169px;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
-  background: url(/src/images/subscribe/unsplash1.jpg);
+  background: url('/src/images/subscribe/unsplash1.jpg');
 }
 
 @media (min-device-pixel-ratio: 2),
