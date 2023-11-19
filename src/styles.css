@@ -1,14 +1,19 @@
-@import url(./partials/css/advantages.css);
-@import url(./partials/css/buy-now.css);
-@import url(./partials/css/explore-our-new-chocolate-first.css);
-@import url(./partials/css/footer.css);
+@import url(./partials/css/globals.css);
 @import url(./partials/css/header.css);
 @import url(./partials/css/hero.css);
+@import url(./partials/css/advantages.css);
+@import url(./partials/css/unique-components.css);
 @import url(./partials/css/how-its-made.css);
 @import url(./partials/css/our-products.css);
-@import url(./partials/css/leave-a-review-about-our-chocolate.css);
+@import url(./partials/css/top-sellers.css);
 @import url(./partials/css/reviews.css);
 @import url(./partials/css/subscribe.css);
-@import url(./partials/css/top-sellers.css);
-@import url(./partials/css/unique-components.css);
-@import url(./partials/css/globals.css);
+@import url(./partials/css/footer.css);
+
+@import url(./partials/css/buy-now.css);
+@import url(./partials/css/explore-our-new-chocolate-first.css);
+@import url(./partials/css/leave-a-review-about-our-chocolate.css);
+
+
+
+
