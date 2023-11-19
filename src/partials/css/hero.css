@@ -98,6 +98,10 @@
     width: 280px;
   }
 
+  br{
+    display: none;
+  }
+
   .button-container {
     display: flex;
     gap: 32px;
@@ -207,14 +211,18 @@
         font-weight: 500;
         line-height: 34px;
         letter-spacing: -0.84px;
-        
       }
+      br{
+        display: block;
+      }
+
       .hero-container {
         gap: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         font-size: 28px;
         width: 100%;
         padding-right: 48px;
+        margin-left: 40px;
       }
     
       .button-container {
@@ -279,6 +287,13 @@
   
 }
 
+/*__________TABLET*__________*/
+
+
+@media (min-width: 768px)  {
+
+}
+
     /*__________DESKTOP__________*/
 
 @media (min-width: 1200px) {
@@ -329,9 +344,10 @@
   }
   .hero-container {
     gap: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 28px;
     width: 100%;
+    margin-left: 40px;
   }
 
   .button-container {
