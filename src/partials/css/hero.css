@@ -1,4 +1,5 @@
 /* __________MOBILE __________*/
+@media (min-width: 375px){
 .visually-hidden{
   position: absolute;
   width: 1px;
@@ -97,11 +98,16 @@
     width: 280px;
   }
 
+  br{
+    display: none;
+  }
+
   .button-container {
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
     width: 100%;
+    
   }
   .buttons {
     display: flex;
@@ -124,8 +130,12 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 14px; /* 116.667% */
+    line-height: 14px; 
     letter-spacing: -0.36px;
+    text-decoration: none;
+    
+    
+    
   }
   .scroll-div {
     display: flex;
@@ -133,19 +143,31 @@
     gap: 18px;
     justify-content: center;
     width: 120px;
+    
   }
-  .white-circle:hover {
-    background-color:#fd9222;
+
+  .hero-container a{
+    text-decoration: none;
   }
-  .arrow-svg:hover{
+  
+  .scroll-div:hover .scroll {
+    color: #FD9222;
+  }
+  .scroll-div:hover .white-circle {
+    background-color: #FD9222;
+  }
+
+  .scroll-div:hover .arrow-svg {
     filter: brightness(0) saturate(100%) invert(91%) sepia(95%) saturate(0%) hue-rotate(134deg) brightness(107%) contrast(104%);
   }
+  
+  
 
-
+}
 
   /*__________TABLET*__________*/
 
-@media (min-width: 769px)  {
+@media (min-width: 768px)  {
 
     
       .hero {
@@ -164,6 +186,8 @@
         justify-content: center;
         align-items: end;
         margin: 20px;
+        margin-left: 32px;
+        margin-right: 32px;
         border-radius: 30px;
         color: #fff;
         font-family: Montserrat;
@@ -187,14 +211,18 @@
         font-weight: 500;
         line-height: 34px;
         letter-spacing: -0.84px;
-        
       }
+      br{
+        display: block;
+      }
+
       .hero-container {
         gap: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         font-size: 28px;
         width: 100%;
         padding-right: 48px;
+        margin-left: 40px;
       }
     
       .button-container {
@@ -228,6 +256,7 @@
         font-weight: 500;
         line-height: 18px; /* 128.571% */
         letter-spacing: -0.42px;
+        text-decoration: none;
         
       }
       .white-circle {
@@ -252,9 +281,17 @@
     .white-circle:hover {
       background-color:#fd9222;
     }
-    .arrow-svg:hover{
+    .white-circle:hover .arrow-svg{
       filter: brightness(0) saturate(100%) invert(91%) sepia(95%) saturate(0%) hue-rotate(134deg) brightness(107%) contrast(104%);
     }
+  
+}
+
+/*__________TABLET*__________*/
+
+
+@media (min-width: 768px)  {
+
 }
 
     /*__________DESKTOP__________*/
@@ -278,6 +315,8 @@
     justify-content: center;
     align-items: end;
     margin: 20px;
+    margin-left: 32px;
+    margin-right: 32px;
     border-radius: 30px;
     color: #fff;
     font-family: Montserrat;
@@ -305,9 +344,10 @@
   }
   .hero-container {
     gap: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 28px;
     width: 100%;
+    margin-left: 40px;
   }
 
   .button-container {
@@ -341,6 +381,7 @@
     font-weight: 500;
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.42px;
+    text-decoration: none;
   }
   .white-circle {
     width: 38px;
@@ -357,5 +398,6 @@
     gap: 18px;
     justify-content: center;
     width: 150px;
+    
 }
 }
