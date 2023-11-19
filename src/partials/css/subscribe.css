@@ -32,7 +32,7 @@
   background-color: var(--color-dark);
   padding: 188px 0;
 
-  background-image: url('../images/subscribe/Subscribe_mobile@1x.jpg');
+  background-image: url('/src/images/subscribe/subscribe_mobile@1x.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -43,7 +43,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .title-section {
-    background-image: url('../images/subscribe/Subscribe_mobile@2x.jpg');
+    background-image: url('/src/images/subscribe/subcribe_mobile@2x.jpg');
   }
 }
 .paragraph-chocolate {
