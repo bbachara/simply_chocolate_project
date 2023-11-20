@@ -1,0 +1,100 @@
+/* __________MOBILE __________*/
+
+/*__________Advantages__________ */
+
+.advantages {
+    padding-left: 20px;
+    background-color: #1e1823;
+    color: white;
+    padding-right: 45px;
+    margin-top: 71px;
+    gap: 20px;
+    height: 778px;
+    padding-top: 20px;
+  }
+  
+  .advantages-element h1{
+    margin-top: 22px;
+    margin-bottom: 18px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .advantages-icons {
+    display: flex;
+    width: 62px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.303px;
+    flex-shrink: 0;
+    border-radius: 365px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .advantages-text {
+    color: white 70%;
+    height: auto;
+    width: 308px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+  
+
+  /*__________TABLET*__________*/
+
+@media (min-width: 769px) and (max-width: 1199px) {
+
+    .advantages {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 32px;
+        height: 620px;
+        padding-top: 50px;
+        gap:30px;
+      }
+      .advantages-element {
+        width: calc(33.33% + 65px);
+        
+      }
+      .own-product{
+        margin-top: -50px;
+      }
+
+    }
+
+    /*__________DESKTOP__________*/
+
+@media (min-width: 1200px) {
+
+    .advantages {
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: #1e1823;
+        color: white;
+        padding-right: 45px;
+        height: 344px;
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .mark {
+        width: 1px;
+        height: 124px;
+        background: rgba(255, 255, 255, 0.5);
+        margin-top: 60px;
+        margin-right: 50px;
+      }
+    }
