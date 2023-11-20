@@ -212,12 +212,13 @@ margin-bottom: 31px;
   text-decoration: none;
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   display: inline-block;
   position: relative;
+  padding-left: 45px;
 }
 
 .mobile-menu .link:hover {
@@ -230,6 +231,8 @@ margin-bottom: 31px;
   gap: 18px;
   list-style: none;
   padding-right: 150px;
+  padding-bottom: 24px;
+  padding-left: 32px;
   
 }
 
