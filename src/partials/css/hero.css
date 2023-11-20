@@ -77,7 +77,7 @@
     color: #FD9222;
   }
   .hero-container {
-    margin-bottom: 60px;
+    margin-bottom: 45px;
     margin-left: 20px;
     gap: 15px;
     display: flex;
@@ -112,6 +112,7 @@
   .buttons {
     display: flex;
     gap: 15px;
+    
   }
   
   .white-circle {
@@ -122,6 +123,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   .scroll {
@@ -143,6 +145,7 @@
     gap: 18px;
     justify-content: center;
     width: 120px;
+    
     
   }
 
@@ -221,7 +224,7 @@
         margin-bottom: 40px;
         font-size: 28px;
         width: 100%;
-        padding-right: 48px;
+        padding-right: 40px;
         margin-left: 40px;
       }
     
@@ -232,6 +235,7 @@
         flex-wrap: nowrap;
         align-items: center;
         justify-content: space-between;
+        
       }
     
       .button-1 {
@@ -275,6 +279,7 @@
       gap: 18px;
       justify-content: center;
       width: 150px;
+      
   
 
     }
