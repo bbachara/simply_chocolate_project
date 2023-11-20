@@ -46,6 +46,7 @@
 
   background: #fff;
   padding-top: 32px;
+  padding-bottom: 30px;
 }
 .image-content,
 .card-content {
@@ -84,6 +85,7 @@
   line-height: 14px; /* 116.667% */
   letter-spacing: -0.24px;
   margin-top: 0px;
+  padding-bottom: 18px;
 }
 
 .button {

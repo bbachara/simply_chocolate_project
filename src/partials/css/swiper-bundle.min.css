@@ -218,16 +218,13 @@
   display: none;
 }
 .swiper-pagination {
-  position: absolute;
+  
   transition: 0.3s opacity;
   transform: translate3d(0, 0, 0);
   z-index: 10;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  
-  
-  
+  margin-top: 32px;
 }
 .swiper-pagination.swiper-pagination-hidden {
   opacity: 0;
@@ -257,6 +254,7 @@
   height: 13px;
   background: var(--swiper-pagination-bullet-inactive-color, #000);
   opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+  
   
   
   
