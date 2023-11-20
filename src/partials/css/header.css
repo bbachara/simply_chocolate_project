@@ -213,10 +213,11 @@ margin-bottom: 31px;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 24px;
   letter-spacing: 0.72px;
   display: inline-block;
   position: relative;
+  padding-left: 45px;
 }
 
 .mobile-menu .link:hover {
@@ -228,8 +229,9 @@ margin-bottom: 31px;
   flex-direction: row;
   gap: 18px;
   list-style: none;
-  padding-right: 130px;
-  padding-bottom: 20px;
+  padding-right: 150px;
+  padding-bottom: 24px;
+  padding-left: 32px;
   
 }
 
