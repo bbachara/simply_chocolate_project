@@ -26,27 +26,28 @@
     text-transform: capitalize;
   }
 
-.subscribe-section {
-  margin: 0 auto;
-  max-width: 1440px;
-  display: flex;
-  align-items: center;
-  background-color: var(--color-dark);
-  padding: 188px 0;
+  .subscribe-section {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-dark);
+    padding: 188px 0;
 
-  background-image: url('/src/images/subscribe/subscribe_mobile@1x.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+    background-image: url('/src/images/subscribe/subscribe_mobile@1x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .title-section {
-    background-image: url('/src/images/subscribe/subscribe_mobile@2x.jpg');
-    }}
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .title-section {
+      background-image: url('/src/images/subscribe/subscribe_mobile@2x.jpg');
+    }
+  }
 
   .paragraph-chocolate {
     max-width: 326px;
@@ -155,25 +156,23 @@
     transform: translateY(100%);
   }
 
-.subscribe-image {
-  overflow: hidden;
-  margin-bottom: 24px;
-  height: 169px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  background: url('/src/images/subscribe/unsplash1.jpg');
-}
-
-
   .subscribe-image {
-
     overflow: hidden;
     margin-bottom: 24px;
     height: 169px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background: url('/src/images/subscribe/unsplash1.jpg');
+  }
 
+  .subscribe-image {
+    overflow: hidden;
+    margin-bottom: 24px;
+    height: 169px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: url('/src/images/subscribe/unsplash1.jpg');
+  }
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -306,7 +305,7 @@
     display: flex;
     align-items: center;
     padding: 72px 0;
-    background-image: url('src/images/subscribe/Subscribe_tablet@1x.jpg');
+    background-image: url('/src/images/subscribe/Subscribe_tablet@1x.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -317,7 +316,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .title-section {
-      background-image: url('src/images/subscribe/Subscribe_tablet@2x.jpg');
+      background-image: url('/src/images/subscribe/Subscribe_tablet@2x.jpg');
     }
   }
 
@@ -436,7 +435,7 @@
     height: 196px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    background: url('src/images/subscribe/unsplash1.jpg');
+    background: url('/src/images/subscribe/unsplash1.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -444,7 +443,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe-image {
-      background-image: url('src/images/subscribe/unsplash1@2x.jpg');
+      background-image: url('/src/images/subscribe/unsplash1@2x.jpg');
     }
   }
 
@@ -572,7 +571,7 @@
     align-items: center;
     height: 370px;
     padding: 72px 0;
-    background-image: url('src/images/subscribe/Subscribe_desktop@1x.jpg');
+    background-image: url('/src/images/subscribe/Subscribe_desktop@1x.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -583,7 +582,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .title-section {
-      background-image: url('src/images/subscribe/Subscribe_desktop@2x.jpg');
+      background-image: url('/src/images/subscribe/Subscribe_desktop@2x.jpg');
     }
   }
 
@@ -702,7 +701,7 @@
     height: 196px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    background: url('src/images/subscribe/unsplash1.jpg');
+    background: url('/src/images/subscribe/unsplash1.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -710,7 +709,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe-image {
-      background-image: url('src/images/subscribe/unsplash1@2x.jpg');
+      background-image: url('/src/images/subscribe/unsplash1@2x.jpg');
     }
   }
 
