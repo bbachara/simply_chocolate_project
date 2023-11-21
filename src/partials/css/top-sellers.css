@@ -264,6 +264,8 @@ a {
     
     .top-selers-section {
             padding: 0 32px;
+            margin-top: 128px;
+            margin-bottom: 128px;
         }
     
         .container {
@@ -273,15 +275,15 @@ a {
     
         }
     
-      
-
         .top-sellers-list {
             display: flex;
-            flex-wrap: wrap;
             margin-top: 50px;
-            justify-content: space-between;
-            row-gap: 32px;
+            
     
+        }
+
+        .top-sellers-li {
+
         }
     
         .top-sellers-li:nth-child(3) {
