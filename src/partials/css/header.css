@@ -60,10 +60,13 @@ html {
 .header-container {
 margin-left: 10px;
 margin-right: 10px;
-margin-top: 31px;
-margin-bottom: 31px;
+margin-top: 24px;
+margin-bottom: 24px;
 }
-
+.header-svg-chocolate{
+width:21;
+height:21;
+}
 }
 
 
@@ -79,7 +82,8 @@ margin-bottom: 31px;
       align-items: center;
       height: 24px;
       font-size: 14px;
-      margin-top: 26px;
+      margin-top: 28px;
+      margin-bottom: 36px;
       margin-right: 20px;
       
     }
@@ -92,7 +96,12 @@ margin-bottom: 31px;
       font-weight: 700;
       line-height: 20px;
       letter-spacing: -0.54px;
-      
+    }
+
+    .header-svg-chocolate{
+      width:24;
+      height:24;
+
     }
     .navigation {
       display: flex;
