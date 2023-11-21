@@ -146,6 +146,13 @@ a {
     
 }
 
+.top-sellers-button:hover,
+.top-sellers-button:focus,
+.top-sellers-button:active {
+    background: #FCF1E0;
+    color: #FD9222;
+}
+
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
@@ -258,6 +265,12 @@ a {
         margin-right: auto;
     }
 
+        .top-sellers-button:hover,
+        .top-sellers-button:focus,
+        .top-sellers-button:active {
+            background: #FCF1E0;
+            color: #FD9222;
+        }
 }
 
 /* ================================================= DESKTOP  ========================================= */
@@ -311,4 +324,11 @@ a {
             padding: 14px 40px;
             
         }
+
+        .top-sellers-button:hover,
+        .top-sellers-button:focus,
+        .top-sellers-button:active {
+            background: #FCF1E0;
+            color: #FD9222;
+                }
 }
