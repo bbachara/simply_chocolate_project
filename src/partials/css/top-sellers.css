@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0;
+}
+
+
+/* ================================================= MOBILE ========================================= */
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+.top-selers-section {
+    margin: 72px 0;
+    padding: 0 20px;
+}
+
+.container {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.top-selers-headline {
+    color: #FD9222;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    
+}
+
+.top-sellers-span {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.top-sellers-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.top-sellers-li {
+   
+}
+
+.top-sellers-li:nth-child(3) {
+    display: none;
+}
+
+.top-sellers-li:nth-child(2) {
+   order: 3;
+   margin-top: 32px;
+}
+
+.top-sellers-li:nth-child(5) {
+    order: 4;
+   
+}
+
+.top-sellers-img {
+    width: 335px;
+    height: 464px;
+    border-radius: 15px;
+}
+
+.top-sellers-p {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    width: 306px;
+    margin-top: 20px;
+    text-align: start;
+   
+}
+
+.top-sellers-button {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width: 120px;
+    height: 41px;
+    padding: 12px 28px;
+    align-items: flex-start;
+    gap: 14px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FD9222;
+    border: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .container {
+            padding: 0;
+            width: 335px; 
+        }
+}
+
+/* ================================================= TABLET ========================================= */
+
+@media screen and (min-width: 768px) {
+
+
+.top-selers-section {
+        padding: 0 32px;
+        margin: 128px 0;
+    }
+
+    .container {
+        padding: 0;
+        width: 704px;
+        margin: 0 auto;
+
+    }
+
+    .top-selers-headline {
+        color: #FD9222;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+        margin: 0 auto;
+
+    }
+
+    .top-sellers-span {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+    }
+
+    .top-sellers-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: space-between;
+        row-gap: 32px;
+
+    }
+
+    .top-sellers-li:nth-child(1) {
+        
+    }
+
+    .top-sellers-li:nth-child(3) {
+        display: none;
+    }
+
+   
+
+    .top-sellers-img {
+        width: 335px;
+        height: 464px;
+        border-radius: 15px;
+    }
+
+    .top-sellers-p {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+        width: 306px;
+        margin-top: 20px;
+        text-align: start;
+
+    }
+
+    .top-sellers-button {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        width: 120px;
+        height: 41px;
+        padding: 12px 28px;
+        align-items: flex-start;
+        gap: 14px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        background: #FD9222;
+        border: none;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/* ================================================= DESKTOP  ========================================= */
+@media screen and (min-width: 1200px) {
+    
+    .top-selers-section {
+            padding: 0 32px;
+            margin-top: 128px;
+            margin-bottom: 128px;
+        }
+    
+        .container {
+            padding: 0;
+            width: 1136px;
+            margin: 0 auto;
+    
+        }
+    
+        .top-sellers-list {
+            display: flex;
+            margin-top: 50px;
+            gap:16px;
+    
+        }
+
+        .top-sellers-li {
+
+        }
+    
+        .top-sellers-li:nth-child(3) {
+            display: block;
+        }
+    
+        .top-sellers-img {
+            width: 368px;
+            height: 464px;
+            border-radius: 15px;
+        }
+    
+        .top-sellers-p {
+            width: 407px;
+           
+    
+        }
+    
+        .top-sellers-button {
+           
+            font-size: 18px;
+            width: 162px;
+            height: 50px;
+            padding: 14px 40px;
+            
+        }
+}
