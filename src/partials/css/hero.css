@@ -302,7 +302,13 @@
 
 
 @media (min-width: 768px)  {
-
+.hero-container {
+    margin-bottom:40px;
+    font-size: 28px;
+    width: 100%;
+    margin-left: 40px;
+    height:180;
+  }
 }
 
     /*__________DESKTOP__________*/
