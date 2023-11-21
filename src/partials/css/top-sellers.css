@@ -164,12 +164,12 @@ a {
 @media screen and (min-width: 768px) {
 
 
-    .top-selers-section {
+    .top-sellers-section {
         padding: 0 32px;
         margin: 128px 0;
     }
 
-    .container {
+    .to-sellers-container {
         padding: 0;
         width: 704px;
         margin: 0 auto;
@@ -272,14 +272,14 @@ a {
 /* ================================================= DESKTOP  ========================================= */
 @media screen and (min-width: 1200px) {
 
-    .top-selers-section {
+    .top-sellers-section {
 
         padding: 0 32px;
         margin-top: 128px;
         margin-bottom: 128px;
     }
 
-    .container {
+    .top-sellers-container {
         padding: 0;
         width: 1136px;
         margin: 0 auto;
