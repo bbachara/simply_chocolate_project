@@ -138,18 +138,17 @@ a {
     gap: 14px;
     flex-shrink: 0;
     border-radius: 100px;
-    background: #FD9222;
+    background-color: #FD9222;
     border: none;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-sellers-button:hover,
-.top-sellers-button:focus,
-.top-sellers-button:active {
-    background: #FCF1E0;
+.top-sellers-button:focus {
+    background-color: #FCF1E0;
     color: #FD9222;
 }
 
@@ -258,17 +257,17 @@ a {
         gap: 14px;
         flex-shrink: 0;
         border-radius: 100px;
-        background: #FD9222;
+        background-color: #FD9222;
         border: none;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
         .top-sellers-button:hover,
-        .top-sellers-button:focus,
-        .top-sellers-button:active {
-            background: #FCF1E0;
+        .top-sellers-button:focus {
+            background-color: #FCF1E0;
             color: #FD9222;
         }
 }
@@ -322,13 +321,16 @@ a {
             width: 162px;
             height: 50px;
             padding: 14px 40px;
-            
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .top-sellers-button:hover,
-        .top-sellers-button:focus,
-        .top-sellers-button:active {
-            background: #FCF1E0;
+        .top-sellers-button:focus
+         {
+            background-color: #FCF1E0;
             color: #FD9222;
                 }
+
+        
 }
+
