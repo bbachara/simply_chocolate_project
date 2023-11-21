@@ -8,7 +8,7 @@
     gap: 24px;
   }
 
-  .section {
+  .subscribe-section-two {
     display: flex;
     min-width: 375px;
     padding: 62px 20px 63px 20px;
@@ -285,7 +285,7 @@
     gap: 24px;
   }
 
-  .section {
+  .subscribe-section-two {
     display: inline-flex;
     padding: 72px 151px 72px 150px;
     justify-content: center;
@@ -558,7 +558,7 @@
     gap: 24px;
   }
 
-  .section {
+  .subscribe-section-two {
     padding: 72px 367px 72px 366px;
     justify-content: center;
     align-items: center;
