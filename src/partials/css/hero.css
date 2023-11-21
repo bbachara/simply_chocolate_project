@@ -88,7 +88,7 @@
     height: 205px;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 21px;
   }
   
   .hero-text {
@@ -100,7 +100,7 @@
     line-height: 24px; /* 120% */
     letter-spacing: -0.6px;
     width: 280px;
-    padding-bottom: 10;
+    padding-bottom: 22;
   }
 
   br{
@@ -143,6 +143,7 @@
     
     
     
+    
   }
   .scroll-div {
     display: flex;
@@ -150,6 +151,7 @@
     gap: 18px;
     justify-content: center;
     width: 120px;
+    
     
     
   }
@@ -205,12 +207,11 @@
         line-height: 24px;
         letter-spacing: -0.6px;
         justify-content: flex-start;
-        gap: 10px;
         font-size: 28px;
       }
     
       .hero-text {
-        height: 200px;
+        height: px;
         width: 484px;
         color: #fff;
         font-family: Montserrat;
@@ -219,6 +220,7 @@
         font-weight: 500;
         line-height: 34px;
         letter-spacing: -0.84px;
+        padding-bottom: 32px;
       }
       br{
         display: block;
@@ -226,7 +228,7 @@
 
       .hero-container {
         gap: 0px;
-        margin-bottom: 40px;
+        
         font-size: 28px;
         width: 100%;
         padding-right: 40px;
@@ -257,7 +259,6 @@
         width: 500px;
       }
       .scroll {
-        padding-bottom: 0px;
         color: #fff;
         font-family: Montserrat;
         font-size: 14px;
