@@ -1,6 +1,6 @@
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (min-width: 375px) and (max-width: 767px) {
-  .container {
+  .subscribe-container {
     display: flex;
     width: 335px;
     flex-direction: column;
@@ -277,7 +277,7 @@
 /* ================================================= TABLET 👇 ========================================= */
 
 @media screen and (min-width: 768px) {
-  .container {
+  .subscribe-container {
     width: 467px;
     display: flex;
     flex-direction: column;
@@ -550,7 +550,7 @@
 @media screen and (min-width: 1200px) {
   /* co jest potrzebne dla desktopu */
 
-  .container {
+  .subscribe-container {
     width: 467px;
     display: flex;
     flex-direction: column;
