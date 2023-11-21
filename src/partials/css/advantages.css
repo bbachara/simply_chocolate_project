@@ -3,10 +3,9 @@
 /*__________Advantages__________ */
 
 .advantages {
-  padding-left: 20px;
+  
   background-color: #1e1823;
   color: white;
-  padding-right: 45px;
   margin-top: 71px;
   height: 778px;
   display: flex;
@@ -14,6 +13,8 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 5px;
+  padding-right: 40px;
+  margin-bottom: 72px;
 }
 
 .advantages-element h1 {
@@ -68,9 +69,11 @@
     align-items: center;
     align-content: flex-start;
     height: 620px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 32px;
     gap:20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
   }
   .advantages-element {
     width: calc(50% - 30px);
@@ -81,9 +84,9 @@
 
 @media (min-width: 1200px) {
   .advantages {
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: #1e1823;
     color: white;
     padding-right: 45px;
@@ -91,8 +94,11 @@
     gap: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: normal;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top: 72px;
+    margin-bottom: 128px;
+    
   }
   .mark {
     width: 1px;

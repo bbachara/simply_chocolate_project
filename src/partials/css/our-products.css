@@ -1,8 +1,29 @@
-
-.slide-container {
-  padding-top: 20px;
+@media (max-width: 375px) {
+  .card {
+    width: 360px;
+    height: 500px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1199px) {
+  .slide-content .our{
+  font-size: 24px;
   margin-bottom: 50px;
 }
+.slide-content .product {
+  font-size: 24px;
+ }
+}
+
+@media (min-width: 1200px) {
+ .slide-content .product {
+  font-size: 24px;
+ }
+ .slide-content .our{
+  font-size: 24px;
+  margin-bottom: 50px;
+ }
+}
+
 
 .slide-content h2 {
   align-items: center;
@@ -17,8 +38,9 @@
   text-transform: uppercase;
   margin-bottom:32px;
   
+  
 }
-.our {
+.product {
   color: #fd9222;
   font-family: Montserrat;
   font-size: 20px;
@@ -30,13 +52,12 @@
 }
 
 .slide-container {
-  max-width: 100%;
-  padding: 40px 0;
+  
 }
 .slide-content {
-    
+  
   margin: 0 40px;
-  /*overflow: hidden; /*widocznosc pozotalych slajdow obok */
+  overflow: hidden; 
 }
 .card {
   width: 270px;
@@ -47,6 +68,7 @@
   background: #fff;
   padding-top: 32px;
   padding-bottom: 30px;
+  
 }
 .image-content,
 .card-content {
