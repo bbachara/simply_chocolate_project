@@ -149,6 +149,10 @@ footer {
   footer {
     width: 100%;
   }
+  .nav-ul {
+    padding-bottom: 50px;
+    padding-top: 24px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -157,14 +161,14 @@ footer {
   }
   .address-container {
     padding-top: 50px;
-    margin-left: 124px;
+    margin-left: 550px;
   }
   .footer-title {
     padding-top: 50px;
   }
 
   .bar {
-    width: 704px;
+    width: 1136px;
   }
 
   .nav-ul {
@@ -178,5 +182,23 @@ footer {
 
   footer {
     width: 100%;
+  }
+
+  .nav-ul {
+    padding-bottom: 50px;
+    padding-top: 24px;
+  }
+
+  .footer-title {
+    font-size: 28px;
+    font-style: normal;
+    text-transform: none;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.56px;
+    color: #fff;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 62px;
   }
 }
