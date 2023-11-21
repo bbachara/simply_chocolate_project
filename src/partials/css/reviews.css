@@ -101,6 +101,7 @@ h2 {
   display: flex;
   padding-top: 32px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 /*TABLET*/
 
@@ -208,6 +209,7 @@ h2 {
   .reviews-button_position {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
   }
 }
 /*DESKTOP*/
@@ -316,5 +318,6 @@ h2 {
   .reviews-button_position {
     display: flex;
     justify-content: center;
+    margin-bottom: 128px;
   }
 }
