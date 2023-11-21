@@ -10,7 +10,7 @@
 
   .section {
     display: flex;
-    width: 375px;
+    min-width: 375px;
     padding: 62px 20px 63px 20px;
     justify-content: center;
     align-items: center;
@@ -33,14 +33,16 @@
 
   .subscribe-section {
     margin: 0 auto;
-    max-width: 1440px;
+
     display: flex;
     align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      url('/src/images/subscribe/subscribe_mobile@1x.jpg'),
+      lightgray -412px -477.287px / 320% 372.105% no-repeat;
 
-    background-image: url('/src/images/subscribe/subscribe_mobile@1x.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    background-position: 69%;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -307,15 +309,15 @@
 
   .subscribe-section {
     margin: 0 auto;
-    max-width: 1157px;
+
     height: 370px;
     display: flex;
     align-items: center;
     padding: 72px 0;
-    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
       url('/src/images/subscribe/subscribe_tablet@1x.jpg'),
-      lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
-    display: flex;
+      lightgray -215px -481.157px / 156.25% 375.122% no-repeat;
+
     background-position: 69%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -585,9 +587,9 @@
     height: 370px;
     padding: 72px 0;
 
-    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
       url('/src/images/subscribe/subscribe_desktop@1x.jpg'),
-      lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
+      lightgray 0px -481.157px / 100% 375.122% no-repeat;
 
     background-position: 69%;
     background-size: cover;
