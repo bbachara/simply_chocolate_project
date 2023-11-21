@@ -34,12 +34,12 @@ a {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-    .top-selers-section {
+    .top-sellers-section {
         margin: 72px 0;
         padding: 0 20px;
     }
 
-    .container {
+    .top-sellers-container {
         padding: 0;
         width: 100%;
         margin: 0 auto;
