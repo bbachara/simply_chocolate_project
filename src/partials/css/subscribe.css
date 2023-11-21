@@ -1,6 +1,6 @@
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (min-width: 375px) and (max-width: 767px) {
-  .container {
+  .subscribe-container {
     display: flex;
     width: 335px;
     flex-direction: column;
@@ -8,7 +8,7 @@
     gap: 24px;
   }
 
-  .section {
+  .subscribe-section-two {
     display: flex;
     min-width: 375px;
     padding: 62px 20px 63px 20px;
@@ -77,7 +77,7 @@
     cursor: pointer;
     border: none;
     border-radius: 100px;
-    background-color: #fd9222;
+    background-color: var(--orange);
 
     display: block;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -89,8 +89,8 @@
 
   .subscribe-button:hover,
   .subscribe-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
   /* subscribe-modal */
 
@@ -113,7 +113,7 @@
     width: 311px;
     height: 350px;
     border-radius: 15px;
-    background: #ffffff;
+    background: var(--beige);
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -138,7 +138,7 @@
   .subscribe-close-btn:hover,
   .subscribe-close-btn:focus {
     border: none;
-    color: #fd9222;
+    color: var(--orange);
   }
 
   .subscribe-close-icon {
@@ -147,8 +147,8 @@
 
   .subscribe-close-icon:hover,
   .subscribe-close-icon:active {
-    color: #fd9222;
-    fill: #fd9222;
+    color: var(--orange);
+    fill: var(--orange);
   }
 
   .is-hidden {
@@ -189,13 +189,13 @@
   }
 
   .subscribe-modal .subscribe-title {
-    color: black;
+    color: var(--pureblack);
     text-align: start;
     margin-bottom: 24px;
     margin-left: 24px;
   }
   .orange-span {
-    color: #fd9222;
+    color: var(--orange);
   }
 
   .footery-form {
@@ -226,7 +226,7 @@
 
   .footery-input:hover,
   .footery-input:active {
-    border: 1.5px solid #fd9222;
+    border: 1.5px solid var(--orange);
     outline: none;
   }
 
@@ -237,7 +237,7 @@
   .subscribey-button {
     position: absolute;
     right: 24px;
-    background-color: #fd9222;
+    background-color: var(--orange);
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -256,8 +256,8 @@
 
   .subscribey-button:hover,
   .subscribey-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   .visually-hidden {
@@ -277,8 +277,8 @@
 /* ================================================= TABLET 👇 ========================================= */
 
 @media screen and (min-width: 768px) {
-  .container {
 
+  .subscribe-container {
     width: 467px;
     display: flex;
     flex-direction: column;
@@ -291,7 +291,7 @@
 
   }
 
-  .section {
+  .subscribe-section-two {
     display: inline-flex;
     padding: 72px 151px 72px 150px;
     justify-content: center;
@@ -361,7 +361,7 @@
     cursor: pointer;
     border: none;
     border-radius: 100px;
-    background-color: #fd9222;
+    background-color: var(--orange);
 
     display: block;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -373,8 +373,8 @@
 
   .subscribe-button:hover,
   .subscribe-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   /* subscribe-modal */
@@ -424,7 +424,7 @@
   .subscribe-close-btn:hover,
   .subscribe-close-btn:focus {
     border: none;
-    fill: #fd9222;
+    fill: var(--orange);
   }
 
   .subscribe-close-icon {
@@ -433,8 +433,8 @@
 
   .subscribe-close-icon:hover,
   .subscribe-close-icon:active {
-    color: #fd9222;
-    fill: #fd9222;
+    color: var(--orange);
+    fill: var(--orange);
   }
 
   .is-hidden {
@@ -466,13 +466,13 @@
   }
 
   .subscribe-modal .subscribe-title {
-    color: black;
+    color: var(--pureblack);
     text-align: start;
     margin-bottom: 28px;
     margin-left: 40px;
   }
   .orange-span {
-    color: #fd9222;
+    color: var(--orange);
   }
 
   .footery-form {
@@ -506,7 +506,7 @@
 
   .footery-input:hover,
   .footery-input:active {
-    border: 1.5px solid #fd9222;
+    border: 1.5px solid var(--orange);
     outline: none;
   }
 
@@ -515,7 +515,7 @@
   }
 
   .subscribey-button {
-    background-color: #fd9222;
+    background-color: var(--orange);
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -534,8 +534,8 @@
 
   .subscribey-button:hover,
   .subscribey-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   .visually-hidden {
@@ -556,8 +556,7 @@
 @media screen and (min-width: 1200px) {
   /* co jest potrzebne dla desktopu */
 
-  .container {
-
+  .subscribe-container {
     width: 467px;
     display: flex;
     flex-direction: column;
@@ -570,7 +569,7 @@
 
   }
 
-  .section {
+  .subscribe-section-two {
     padding: 72px 367px 72px 366px;
     justify-content: center;
     align-items: center;
@@ -640,7 +639,7 @@
     cursor: pointer;
     border: none;
     border-radius: 100px;
-    background-color: #fd9222;
+    background-color: var(--orange);
 
     display: block;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -652,8 +651,8 @@
 
   .subscribe-button:hover,
   .subscribe-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   /* subscribe-modal */
@@ -703,7 +702,7 @@
   .subscribe-close-btn:hover,
   .subscribe-close-btn:focus {
     border: none;
-    fill: #fd9222;
+    fill: var(--orange);
   }
 
   .subscribe-close-icon {
@@ -712,8 +711,8 @@
 
   .subscribe-close-icon:hover,
   .subscribe-close-icon:active {
-    color: #fd9222;
-    fill: #fd9222;
+    color: var(--orange);
+    fill: var(--orange);
   }
 
   .is-hidden {
@@ -745,13 +744,13 @@
   }
 
   .subscribe-modal .subscribe-title {
-    color: black;
+    color: var(--pureblack);
     text-align: start;
     margin-bottom: 28px;
     margin-left: 40px;
   }
   .orange-span {
-    color: #fd9222;
+    color: var(--orange);
   }
 
   .footery-form {
@@ -785,7 +784,7 @@
 
   .footery-input:hover,
   .footery-input:active {
-    border: 1.5px solid #fd9222;
+    border: 1.5px solid var(--orange);
     outline: none;
   }
 
@@ -794,7 +793,7 @@
   }
 
   .subscribey-button {
-    background-color: #fd9222;
+    background-color: var(--orange);
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -813,8 +812,8 @@
 
   .subscribey-button:hover,
   .subscribey-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   .visually-hidden {
