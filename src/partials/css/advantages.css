@@ -8,9 +8,11 @@
     color: white;
     padding-right: 45px;
     margin-top: 71px;
-    gap: 20px;
     height: 778px;
-    padding-top: 20px;
+    display: flex;
+    justify-content: center; /* Dodano, aby elementy były w centrum */
+    flex-direction: column; /* Dodano, aby elementy były ułożone jedno pod drugim */
+    align-items: center; 
   }
   
   .advantages-element h1{
@@ -33,7 +35,11 @@
     gap: 7.303px;
     flex-shrink: 0;
     border-radius: 365px;
+    margin-top: 20px;
     border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .advantages-chocolate{
+    margin-top: 0px;
   }
   
   .advantages-text {
@@ -48,7 +54,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.28px;
-    padding-bottom: 20px;
+    
   }
   
 
@@ -61,15 +67,11 @@
         flex-wrap: wrap;
         padding-left: 32px;
         height: 620px;
-        padding-top: 50px;
-        gap:30px;
+        gap:10px;
       }
-      .advantages-element {
-        width: calc(33.33% + 65px);
-        
-      }
+  
       .own-product{
-        margin-top: -50px;
+      margin-bottom: 340px;
       }
 
     }
@@ -79,7 +81,7 @@
 @media (min-width: 1200px) {
 
     .advantages {
-        padding-top: 50px;
+        padding-top: 20px;
         padding-left: 40px;
         padding-right: 40px;
         background-color: #1e1823;
@@ -88,14 +90,20 @@
         height: 344px;
         gap: 20px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+        align-items: normal;
         
       }
       .mark {
         width: 1px;
         height: 124px;
         background: rgba(255, 255, 255, 0.5);
-        margin-top: 60px;
+        margin-top: 80px;
         margin-right: 50px;
       }
+      .advantages-chocolate{
+    margin-top: 20px;
+  }
+
     }

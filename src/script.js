@@ -1,5 +1,5 @@
 var swiper = new Swiper(".slide-content", {
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 25,
     loop: true,
     centerSlide: 'true',
@@ -10,12 +10,12 @@ var swiper = new Swiper(".slide-content", {
       clickable: true,
       dynamicBullets: false,
     },
-   breakpoints: {
+    breakpoints: {
     0: {
       slidesPerView: 1,
     },
     769: {
-      slidesPerView: 2,
+      slidesPerView: 2.5,
     },
     1201: {
       slidesPerView: 4,

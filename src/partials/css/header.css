@@ -295,8 +295,7 @@ margin-bottom: 31px;
   flex-direction: column;
   gap: 24px;
   list-style: none;
-  padding-right: 30px;
-  padding-left: 50;
+  padding-right: 50px;
   padding-top: 40px;
 }
 .toggle-svg{
