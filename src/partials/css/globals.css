@@ -37,13 +37,13 @@ a {
   margin: 0;
 }
 
-
 body {
   font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.28px;
+  background-color: #fafafa;
 }
 
 h1 {

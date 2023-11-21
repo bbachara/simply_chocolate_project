@@ -277,12 +277,18 @@
 /* ================================================= TABLET 👇 ========================================= */
 
 @media screen and (min-width: 768px) {
+
   .subscribe-container {
     width: 467px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+
+    max-width: 758px;
+  
+    margin: 0 auto;
+
   }
 
   .subscribe-section-two {
@@ -556,6 +562,11 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+
+    max-width: 1158px;
+    padding: 0;
+    margin: 0 auto;
+
   }
 
   .subscribe-section-two {
