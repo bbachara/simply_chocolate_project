@@ -77,7 +77,7 @@
     cursor: pointer;
     border: none;
     border-radius: 100px;
-    background-color: #fd9222;
+    background-color: var(--orange);
 
     display: block;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -89,8 +89,8 @@
 
   .subscribe-button:hover,
   .subscribe-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
   /* subscribe-modal */
 
@@ -113,7 +113,7 @@
     width: 311px;
     height: 350px;
     border-radius: 15px;
-    background: #ffffff;
+    background: var(--beige);
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -138,7 +138,7 @@
   .subscribe-close-btn:hover,
   .subscribe-close-btn:focus {
     border: none;
-    color: #fd9222;
+    color: var(--orange);
   }
 
   .subscribe-close-icon {
@@ -147,8 +147,8 @@
 
   .subscribe-close-icon:hover,
   .subscribe-close-icon:active {
-    color: #fd9222;
-    fill: #fd9222;
+    color: var(--orange);
+    fill: var(--orange);
   }
 
   .is-hidden {
@@ -189,13 +189,13 @@
   }
 
   .subscribe-modal .subscribe-title {
-    color: black;
+    color: var(--pureblack);
     text-align: start;
     margin-bottom: 24px;
     margin-left: 24px;
   }
   .orange-span {
-    color: #fd9222;
+    color: var(--orange);
   }
 
   .footery-form {
@@ -226,7 +226,7 @@
 
   .footery-input:hover,
   .footery-input:active {
-    border: 1.5px solid #fd9222;
+    border: 1.5px solid var(--orange);
     outline: none;
   }
 
@@ -237,7 +237,7 @@
   .subscribey-button {
     position: absolute;
     right: 24px;
-    background-color: #fd9222;
+    background-color: var(--orange);
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -256,8 +256,8 @@
 
   .subscribey-button:hover,
   .subscribey-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   .visually-hidden {
@@ -355,7 +355,7 @@
     cursor: pointer;
     border: none;
     border-radius: 100px;
-    background-color: #fd9222;
+    background-color: var(--orange);
 
     display: block;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -367,8 +367,8 @@
 
   .subscribe-button:hover,
   .subscribe-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   /* subscribe-modal */
@@ -418,7 +418,7 @@
   .subscribe-close-btn:hover,
   .subscribe-close-btn:focus {
     border: none;
-    fill: #fd9222;
+    fill: var(--orange);
   }
 
   .subscribe-close-icon {
@@ -427,8 +427,8 @@
 
   .subscribe-close-icon:hover,
   .subscribe-close-icon:active {
-    color: #fd9222;
-    fill: #fd9222;
+    color: var(--orange);
+    fill: var(--orange);
   }
 
   .is-hidden {
@@ -460,13 +460,13 @@
   }
 
   .subscribe-modal .subscribe-title {
-    color: black;
+    color: var(--pureblack);
     text-align: start;
     margin-bottom: 28px;
     margin-left: 40px;
   }
   .orange-span {
-    color: #fd9222;
+    color: var(--orange);
   }
 
   .footery-form {
@@ -500,7 +500,7 @@
 
   .footery-input:hover,
   .footery-input:active {
-    border: 1.5px solid #fd9222;
+    border: 1.5px solid var(--orange);
     outline: none;
   }
 
@@ -509,7 +509,7 @@
   }
 
   .subscribey-button {
-    background-color: #fd9222;
+    background-color: var(--orange);
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -528,8 +528,8 @@
 
   .subscribey-button:hover,
   .subscribey-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   .visually-hidden {
@@ -628,7 +628,7 @@
     cursor: pointer;
     border: none;
     border-radius: 100px;
-    background-color: #fd9222;
+    background-color: var(--orange);
 
     display: block;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -640,8 +640,8 @@
 
   .subscribe-button:hover,
   .subscribe-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   /* subscribe-modal */
@@ -691,7 +691,7 @@
   .subscribe-close-btn:hover,
   .subscribe-close-btn:focus {
     border: none;
-    fill: #fd9222;
+    fill: var(--orange);
   }
 
   .subscribe-close-icon {
@@ -700,8 +700,8 @@
 
   .subscribe-close-icon:hover,
   .subscribe-close-icon:active {
-    color: #fd9222;
-    fill: #fd9222;
+    color: var(--orange);
+    fill: var(--orange);
   }
 
   .is-hidden {
@@ -733,13 +733,13 @@
   }
 
   .subscribe-modal .subscribe-title {
-    color: black;
+    color: var(--pureblack);
     text-align: start;
     margin-bottom: 28px;
     margin-left: 40px;
   }
   .orange-span {
-    color: #fd9222;
+    color: var(--orange);
   }
 
   .footery-form {
@@ -773,7 +773,7 @@
 
   .footery-input:hover,
   .footery-input:active {
-    border: 1.5px solid #fd9222;
+    border: 1.5px solid var(--orange);
     outline: none;
   }
 
@@ -782,7 +782,7 @@
   }
 
   .subscribey-button {
-    background-color: #fd9222;
+    background-color: var(--orange);
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -801,8 +801,8 @@
 
   .subscribey-button:hover,
   .subscribey-button:focus {
-    background-color: #fcf1e0;
-    color: #fd9222;
+    background-color: var(--light-orange);
+    color: var(--orange);
   }
 
   .visually-hidden {
