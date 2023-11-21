@@ -123,6 +123,8 @@ height:21;
 
     li:hover a{
       color: #fd9222;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
     }
 
     .social-icons{
@@ -236,6 +238,7 @@ height:21;
 
 .mobile-menu .link:hover {
   color: #fd9222;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-toggle {
@@ -251,6 +254,7 @@ height:21;
 
 .toggle-svg:hover{
   filter: brightness(0) saturate(100%) invert(71%) sepia(43%) saturate(4333%) hue-rotate(344deg) brightness(104%) contrast(98%);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .js-close-button {
@@ -266,12 +270,15 @@ height:21;
   justify-content: center;
   cursor: pointer;
   transition: transform 250ms ease-in-out;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .js-close-button:hover{
   filter: brightness(0) saturate(100%) invert(71%) sepia(43%) saturate(4333%) hue-rotate(344deg) brightness(104%) contrast(98%);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 

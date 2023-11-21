@@ -61,6 +61,7 @@
     background-color: #FCF1E0;
     color:#FD9222;
     border: 0;
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .button-2 {
     width: 159px;
@@ -79,6 +80,7 @@
     background-color: white;
     border-color: #FD9222;
     color: #FD9222;
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-container {
     margin-left: 20px;
@@ -162,13 +164,16 @@
   
   .scroll-div:hover .scroll {
     color: #FD9222;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .scroll-div:hover .white-circle {
     background-color: #FD9222;
+    
   }
 
   .scroll-div:hover .arrow-svg {
     filter: brightness(0) saturate(100%) invert(91%) sepia(95%) saturate(0%) hue-rotate(134deg) brightness(107%) contrast(104%);
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   
@@ -369,7 +374,6 @@
     width: 100%;
     flex-wrap: nowrap;
     align-items: center;
-    
     justify-content: space-between;
   }
   .button-1 {
