@@ -1,3 +1,8 @@
+html {
+      scroll-behavior: smooth;
+    }
+
+
 /* __________MOBILE __________*/
 @media (min-width: 375px){
 .header-container {
@@ -186,7 +191,7 @@ margin-bottom: 31px;
   gap: 24px;
   list-style: none;
   padding-right: 30px;
-  padding-left: 30;
+  padding-left: 5px;
 }
 .mobile-menu .link:after{
   content: "";
@@ -295,8 +300,7 @@ margin-bottom: 31px;
   flex-direction: column;
   gap: 24px;
   list-style: none;
-  padding-right: 30px;
-  padding-left: 50;
+  padding-right: 50px;
   padding-top: 40px;
 }
 .toggle-svg{
