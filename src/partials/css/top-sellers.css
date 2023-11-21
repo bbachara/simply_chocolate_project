@@ -278,7 +278,7 @@ a {
         .top-sellers-list {
             display: flex;
             margin-top: 50px;
-            
+            gap:16px;
     
         }
 
