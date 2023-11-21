@@ -8,6 +8,7 @@
   .unique-box {
     display: flex;
     flex-direction: column;
+   
   }
 
   .unique-headline {
