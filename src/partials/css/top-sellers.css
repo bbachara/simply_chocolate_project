@@ -96,6 +96,7 @@ a {
         margin-top: 32px;
     }
 
+
     .top-sellers-li:nth-child(5) {
         order: 4;
 
@@ -149,7 +150,6 @@ a {
         background-color: #FCF1E0;
         color: #FD9222;
     }
-
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
@@ -266,12 +266,14 @@ a {
         background-color: #FCF1E0;
         color: #FD9222;
     }
+
 }
 
 /* ================================================= DESKTOP  ========================================= */
 @media screen and (min-width: 1200px) {
 
     .top-selers-section {
+
         padding: 0 32px;
         margin-top: 128px;
         margin-bottom: 128px;
@@ -305,8 +307,6 @@ a {
 
     .top-sellers-p {
         width: 407px;
-
-
     }
 
     .top-sellers-button {
@@ -323,6 +323,5 @@ a {
         background-color: #FCF1E0;
         color: #FD9222;
     }
-
 
 }
