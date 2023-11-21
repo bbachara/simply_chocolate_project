@@ -1,14 +1,19 @@
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .container {
-    max-width: 767px;
-    padding: 0 15px;
-    margin: 0 auto;
+    display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
   }
 
   .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    display: flex;
+    width: 375px;
+    padding: 62px 20px 63px 20px;
+    justify-content: center;
+    align-items: center;
   }
 
   .subscribe-title {
@@ -26,27 +31,26 @@
     text-transform: capitalize;
   }
 
-.subscribe-section {
-  margin: 0 auto;
-  max-width: 1440px;
-  display: flex;
-  align-items: center;
-  background-color: var(--color-dark);
-  padding: 188px 0;
+  .subscribe-section {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
 
-  background-image: url('/src/images/subscribe/subscribe_mobile@1x.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+    background-image: url('/src/images/subscribe/subscribe_mobile@1x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .title-section {
-    background-image: url('/src/images/subscribe/subscribe_mobile@2x.jpg');
-    }}
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .title-section {
+      background-image: url('/src/images/subscribe/subscribe_mobile@2x.jpg');
+    }
+  }
 
   .paragraph-chocolate {
     max-width: 326px;
@@ -155,18 +159,7 @@
     transform: translateY(100%);
   }
 
-.subscribe-image {
-  overflow: hidden;
-  margin-bottom: 24px;
-  height: 169px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  background: url('/src/images/subscribe/unsplash1.jpg');
-}
-
-
   .subscribe-image {
-
     overflow: hidden;
     margin-bottom: 24px;
     height: 169px;
@@ -175,12 +168,19 @@
     background: url('/src/images/subscribe/unsplash1.jpg');
   }
 
+  .subscribe-image {
+    overflow: hidden;
+    margin-bottom: 24px;
+    height: 169px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: url('/src/images/subscribe/unsplash1.jpg');
+  }
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-
     .subscribe-image {
       background-image: url('/src/images/subscribe/unsplash1@2x.jpg');
     }
@@ -274,16 +274,26 @@
 
 /* ================================================= TABLET 👇 ========================================= */
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) {
   .container {
+
+    width: 467px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
     max-width: 758px;
   
     margin: 0 auto;
+
   }
 
   .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    display: inline-flex;
+    padding: 72px 151px 72px 150px;
+    justify-content: center;
+    align-items: center;
   }
 
   .subscribe-title {
@@ -308,10 +318,13 @@
     display: flex;
     align-items: center;
     padding: 72px 0;
-    background-image: url('/src/images/subscribe/subscribe_tablet@1x.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+      url('/src/images/subscribe/subscribe_tablet@1x.jpg'),
+      lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
+    display: flex;
+    background-position: 69%;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -538,18 +551,27 @@
 }
 
 /* ================================================= DESKTOP 👇 ========================================= */
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   /* co jest potrzebne dla desktopu */
 
   .container {
+
+    width: 467px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
     max-width: 1158px;
     padding: 0;
     margin: 0 auto;
+
   }
 
   .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 72px 367px 72px 366px;
+    justify-content: center;
+    align-items: center;
   }
 
   .subscribe-title {
@@ -569,15 +591,19 @@
 
   .subscribe-section {
     margin: 0 auto;
-    min-width: 1157px;
+    min-width: 1200px;
     display: flex;
     align-items: center;
     height: 370px;
     padding: 72px 0;
-    background-image: url('/src/images/subscribe/subscribe_desktop@1x.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+      url('/src/images/subscribe/subscribe_desktop@1x.jpg'),
+      lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
+
+    background-position: 69%;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   @media (min-device-pixel-ratio: 2),
