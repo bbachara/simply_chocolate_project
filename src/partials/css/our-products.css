@@ -4,6 +4,25 @@
     height: 500px;
   }
 }
+@media (min-width: 769px) and (max-width: 1199px) {
+  .slide-content .our{
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.slide-content .product {
+  font-size: 24px;
+ }
+}
+
+@media (min-width: 1200px) {
+ .slide-content .product {
+  font-size: 24px;
+ }
+ .slide-content .our{
+  font-size: 24px;
+  margin-bottom: 50px;
+ }
+}
 
 
 .slide-content h2 {
