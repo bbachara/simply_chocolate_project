@@ -1,0 +1,266 @@
+:root {
+  --title-color: #111;
+  --title-made: #fd9222;
+  --bg-color: #fafafa;
+}
+
+/*============MOBILE============*/
+
+h3 {
+  margin: 0 auto;
+  text-transform: none;
+}
+
+.how-its-made {
+  display: flex;
+  max-width: 768px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #fafafa;
+}
+
+.him-container {
+  display: flex;
+  width: 335px;
+  height: 976px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+.title {
+  color: var(--title-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+}
+
+.title-made {
+  color: var(--title-made);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(/src/images/how-its-made/image_mobile@1x.jpg), no-repeat;
+  width: 335px;
+  height: 500px;
+  border-radius: 15px;
+  border-style: hidden;
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.video-container svg {
+  position: absolute;
+  fill: #f5f4f4;
+  left: 150px;
+  top: 233px;
+  width: 35px;
+  height: 35px;
+}
+
+.how-its-made-steps {
+  display: flex;
+  padding: 20px 14px;
+  flex-direction: column;
+  border-radius: 15px;
+  background: #fff;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.him-h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--black);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.him-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.him-li {
+  width: calc(100% - 16px);
+}
+
+.him-p {
+  color: var(--title-color);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+/*iframe {
+  display: block;
+  position: relative;
+  width: 335px;
+  height: 500px;
+  border-radius: 15px;
+  border-style: hidden;
+  border-width: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(/src/images/how-its-made/image_mobile@1x.jpg),
+    lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+}*/
+
+/*============TABLET============*/
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .video-container {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+      url(/src/images/how-its-made/image_tablet@1x.jpg) no-repeat;
+    width: 614px;
+    height: 400px;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .him-container {
+    display: flex;
+    width: 614px;
+    height: 776px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+  }
+
+  .video-container svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    fill: #f5f4f4;
+    width: 44px;
+    height: 44px;
+  }
+
+  .how-its-made-steps {
+    display: flex;
+    width: 100%;
+    height: 292px;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .him-h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 350px;
+    margin-left: 0;
+  }
+
+  .him-ul {
+    width: 100%;
+  }
+
+  .him-li {
+    width: 464px;
+  }
+  .how-its-made {
+    display: flex;
+    min-width: 769px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+}
+/*============DESKTOP============*/
+@media screen and (min-width: 1200px) {
+  .video-container {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+      url(/src/images/how-its-made/image_desktop@1x.jpg), no-repeat;
+    width: 600px;
+    height: 400px;
+    flex-shrink: 0;
+  }
+
+  .video-container svg {
+    left: 278px;
+    top: 178px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .how-its-made {
+    min-width: 1200px;
+    padding: 0;
+    margin-bottom: 128px;
+    margin-top: 128px;
+  }
+
+  .him-container {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+  }
+
+  .him-ul {
+    gap: 24px;
+  }
+
+  .how-its-made-steps {
+    padding: 0;
+    margin-left: 20px;
+    height: 400px;
+    padding: 32px;
+    width: 516px;
+  }
+}
