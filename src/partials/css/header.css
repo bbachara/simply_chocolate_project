@@ -4,7 +4,14 @@ html {
 
 
 /* __________MOBILE __________*/
-@media (min-width: 375px){
+
+@media (min-width: 320px){
+  .div-header{
+  max-width: 375px;
+  justify-content: center;
+  margin: auto;
+
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -57,6 +64,13 @@ html {
 
 
 @media (min-width: 768px)  {
+
+.div-header{
+  max-width: 768px;
+  justify-content: center;
+  margin: auto;
+
+}
 .header-container {
 margin-left: 10px;
 margin-right: 10px;
@@ -74,6 +88,12 @@ height:21;
   /*__________DESKTOP__________*/
 
 @media (min-width: 1200px) {
+.div-header{
+  max-width: 1200px;
+  justify-content: center;
+  margin: auto;
+
+}
 
   
     .header-container {
@@ -84,8 +104,6 @@ height:21;
       font-size: 14px;
       margin-top: 28px;
       margin-bottom: 36px;
-      margin-right: 20px;
-      
     }
   
     .chocolate {
@@ -119,6 +137,7 @@ height:21;
       font-weight: 500;
       line-height: 16px; 
       letter-spacing: -0.28px;
+      padding-left: 30px;
     }
 
     li:hover a{
@@ -314,10 +333,9 @@ height:21;
 .mobile-menu {
   display: inline-flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
   list-style: none;
-  padding-right: 50px;
-  padding-top: 40px;
+  
 }
 .toggle-svg{
   width: 24px;
