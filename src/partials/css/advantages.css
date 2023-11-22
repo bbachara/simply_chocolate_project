@@ -1,19 +1,23 @@
 /* __________MOBILE __________*/
-
+@media (min-width: 320px){
 /*__________Advantages__________ */
 
+.div-advantages{
+  max-width: 375px;
+  justify-content: center;
+  margin: auto;
+
+}
+
 .advantages {
-  
-  background-color: #1e1823;
+   background-color: #1e1823;
   color: white;
   margin-top: 71px;
   height: 778px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  padding-bottom: 5px;
-  padding-right: 40px;
+  padding-left: 20px;
   margin-bottom: 72px;
 }
 
@@ -57,10 +61,17 @@
   line-height: normal;
   letter-spacing: -0.28px;
 }
+}
 
 /*__________TABLET*__________*/
 
-@media (min-width: 769px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .div-advantages{
+  max-width: 768px;
+  justify-content: center;
+  margin: auto;
+
+}
   .advantages {
     display: flex;
     flex-direction: row;
@@ -79,10 +90,17 @@
     width: calc(50% - 30px);
   }
 
+
 }
 /*__________DESKTOP__________*/
 
 @media (min-width: 1200px) {
+  .div-advantages{
+  max-width: 1200px;
+  justify-content: center;
+  margin: auto;
+
+}
   .advantages {
     padding-top: 30px;
     padding-left: 50px;

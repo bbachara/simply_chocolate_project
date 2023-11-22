@@ -1,5 +1,5 @@
 /* __________MOBILE __________*/
-@media (min-width: 375px){
+@media (min-width: 320px){
 .visually-hidden{
   position: absolute;
   width: 1px;
@@ -12,6 +12,12 @@
   clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.container-div{
+  max-width: 375px;
+  justify-content: center;
+  margin: auto;
+
+}
 
 .hero {
   background: linear-gradient(
@@ -22,7 +28,7 @@
   url(/src/images/hero/chocolate.jpg),
   lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
     display: flex;
-    background-position: 69%;
+    background-position: 70%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 621px;
@@ -183,7 +189,12 @@
   /*__________TABLET*__________*/
 
 @media (min-width: 768px)  {
+.container-div{
+  max-width: 704px;
+  justify-content: center;
+  margin: auto;
 
+}
     
       .hero {
         background: linear-gradient(
@@ -314,11 +325,30 @@
     margin-left: 40px;
     height:180;
   }
+  .container-div{
+  max-width: 768px;
+  justify-content: center;
+  margin: auto;
+
+}
+.hero{
+  height: 890px;
+}
+.button-container{
+  padding-right: 30px;
+}
 }
 
     /*__________DESKTOP__________*/
 
+
 @media (min-width: 1200px) {
+
+.container-div{
+  max-width: 1200px;
+  justify-content: center;
+  margin: auto;
+}
 
 
   .hero {
@@ -333,7 +363,7 @@
     background-position: 69%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 600px;
     justify-content: center;
     align-items: end;
     border-radius: 30px;
