@@ -5,10 +5,10 @@
     modal: document.querySelector('[data-modal-buy]'),
   };
 
-  refs.openModalBtn.addEventListener('click', toggleModalBuy);
-  refs.closeModalBtn.addEventListener('click', toggleModalBuy);
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
 
-  function toggleModalBuy() {
+  function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
   }
 })();
