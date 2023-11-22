@@ -1,4 +1,16 @@
 /* ================================================= MOBILE 👇 ========================================= */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .subscribe-section {
+    margin: 72px 0;
+    padding: 0 20px;
+  }
+  .subscribe-container {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .subscribe-container {
     display: flex;
