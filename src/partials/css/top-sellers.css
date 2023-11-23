@@ -143,6 +143,7 @@ a {
         margin-left: auto;
         margin-right: auto;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
     }
 
     .top-sellers-button:hover,
@@ -257,7 +258,7 @@ a {
         border-radius: 100px;
         background-color: #FD9222;
         border: none;
-       
+        cursor: pointer;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
