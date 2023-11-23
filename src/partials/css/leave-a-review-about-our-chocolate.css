@@ -21,6 +21,9 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  button {
+    cursor: pointer;
+  }
   .modal {
     position: absolute;
     align-items: center;
@@ -154,6 +157,10 @@
     border-radius: 100px;
     background: var(--orange);
   }
+  .send-button:hover {
+    color: rgba(253, 146, 34, 1);
+    background: rgba(252, 241, 224, 1);
+  }
 }  
 /*TABLET*/
 
@@ -180,6 +187,9 @@
     transform: scale(1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  button {
+    cursor: pointer;
   }
   .modal {
     position: absolute;
@@ -314,6 +324,10 @@
     border-radius: 100px;
     background: var(--orange);
   }
+  .send-button:hover {
+    color: rgba(253, 146, 34, 1);
+    background: rgba(252, 241, 224, 1);
+  }
 }
 
 /*DESKTOP*/
@@ -340,6 +354,9 @@
     transform: scale(1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  button {
+    cursor: pointer;
   }
   .modal {
     position: absolute;
@@ -472,5 +489,9 @@
     margin-bottom: 32px;
     border-radius: 100px;
     background: var(--orange);
+  }
+  .send-button:hover {
+    color: rgba(253, 146, 34, 1);
+    background: rgba(252, 241, 224, 1);
   }
 }  

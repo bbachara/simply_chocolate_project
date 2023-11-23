@@ -6,6 +6,9 @@ h2 {
   font-size: 20px;
   text-align: center;
 }
+button {
+  cursor: pointer;
+}
 .orange-title {
   color: var(--orange);
 }
@@ -101,6 +104,10 @@ h2 {
   color: white;
   background-color: var(--orange);
 }
+.reviews-button:focus {
+  color: white;
+  background-color: var(--orange);
+}
 .reviews-button_position {
   display: flex;
   padding-top: 32px;
@@ -118,6 +125,9 @@ h2 {
   h2 {
     font-size: 24px;
     text-align: center;
+  }
+  button {
+    cursor: pointer;
   }
   .orange-title {
     color: var(--orange);
@@ -209,7 +219,11 @@ h2 {
     border: 1px solid var(--orange);
   }
   .reviews-button:hover {
-    color: var(--background);
+    color: white;
+    background-color: var(--orange);
+  }
+  .reviews-button:focus {
+    color: white;
     background-color: var(--orange);
   }
   .reviews-button_position {
@@ -227,6 +241,9 @@ h2 {
   h2 {
     font-size: 24px;
     text-align: center;
+  }
+  button {
+    cursor: pointer;
   }
   .orange-title {
     color: var(--orange);
@@ -318,7 +335,11 @@ h2 {
     border: 1px solid var(--orange);
   }
   .reviews-button:hover {
-    color: var(--background);
+    color: white;
+    background-color: var(--orange);
+  }
+  .reviews-button:focus {
+    color: white;
     background-color: var(--orange);
   }
   .reviews-button_position {
