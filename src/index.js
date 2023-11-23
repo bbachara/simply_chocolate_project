@@ -4,5 +4,3 @@ import './sass/main.scss';
 import './script.js';
 import './modal-subscribe.js';
 import './modal-review.js';
-import './modal-buy-now.js';
-import './review.js';
