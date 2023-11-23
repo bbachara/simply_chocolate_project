@@ -264,6 +264,8 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 25px;
+    border: none;
+    fill: white;
   }
 
   .subscribey-button:hover,
@@ -542,6 +544,8 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 25px;
+    border: none;
+    fill: white;
   }
 
   .subscribey-button:hover,
@@ -820,6 +824,8 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 25px;
+    border: none;
+    fill: white;
   }
 
   .subscribey-button:hover,
