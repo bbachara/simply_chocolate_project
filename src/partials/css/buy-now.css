@@ -186,6 +186,10 @@
     color: #fd9222;
   }
 
+  .modal-icon-box-buy {
+    position: relative;
+  }
+
   .icon-close-button-buy {
     width: 8px;
     height: 8px;
