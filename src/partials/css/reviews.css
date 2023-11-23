@@ -65,24 +65,7 @@ h2 {
 }
 /*sliders*/
 
-.sliders {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  padding-top: 20px;
-}
-.sliders-list {
-  display: flex;
-  flex-direction: row;
-  gap: 13px;
-}
-.sliders-item1 {
-  fill: var(--orange);
-}
-.sliders-item2 {
-  fill: rgba(17, 17, 17, 0.1);
-}
+
 
 /*reviews-button*/
 
@@ -104,7 +87,7 @@ h2 {
 }
 .reviews-button_position {
   display: flex;
-  padding-top: 32px;
+  padding-top: 0px;
   justify-content: center;
   
 }
@@ -322,6 +305,7 @@ h2 {
     padding: 14px 40px;
     border-radius: 100px;
     border: 1px solid var(--orange);
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .reviews-button:hover {
     color: var(--background);

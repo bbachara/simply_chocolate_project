@@ -70,13 +70,11 @@
   text-transform: uppercase;
 }
 
-.slide-container {
-  
-}
 .slide-content {
   
   margin: 0 40px;
   overflow: hidden; 
+  padding-bottom: 10px;
 }
 .card {
   width: 270px;
