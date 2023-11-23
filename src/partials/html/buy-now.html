@@ -1,15 +1,16 @@
 <!-- ___________________________________________________ M O D A L ____________________-->
-<div class="buy-modal" data-modal-buy>
-  <div class="backdrop is-hidden">
-    <button type="button" class="close-button" data-modal-close-buy>x
+<div class="backdrop is-hidden" data-modal-b>
+  <div class="buy-modal">
+    <button type="button" class="close-button" data-modal-close-b>
+      x
       <svg
-        class="icon-close-button"
+        class="icon-close-button-buy"
         xmlns="http://www.w3.org/2000/svg"
-        width="8"
-        height="8"
-        viewBox="0 0 8 8"
+        width="28"
+        height="28"
+        viewBox="0 0 28 28"
       >
-        <use href=""></use>
+        <use href="/src/images/icons/icons.svg#icon-x-close"></use>
       </svg>
     </button>
     <h2 class="modal-buy-title">Buy <span class="title-span">now</span></h2>
@@ -27,8 +28,8 @@
           />
           <p class="img-description">100g</p>
         </div>
-        </div>
-        <div class="modal-buy-imgs-box">
+      </div>
+      <div class="modal-buy-imgs-box">
         <div class="img-box">
           <img
             class="modal-buy-img"
@@ -56,42 +57,88 @@
           <p class="img-description">300g</p>
         </div>
       </div>
-      </div>
     </div>
-    <form class="buy-modal-form">
-      <div class="">
-        <label for="user-name" class="buy-modal-label">Personal information</label>
-        <input class="buy-modal-input" type="text" name="user-name" id="user-name" placeholder="Name" required />
-
-        <label for="user-surname" class="buy-modal-label"></label>
-        <input class="buy-modal-input" type="text" name="user-surname" id="user-surname" placeholder="Surname" required />
-
-        <label for="user-email" class="buy-modal-label">Email</label>
-        <input class="buy-modal-input" type="email" name="user-email" id="user-email" placeholder="Enter your email" required />
-
-        <div>
-          <label for="user-phone" class="buy-modal-label">Phone number</label>
-          <input class="buy-modal-input" type="number" name="user-phone" id="user-phone" placeholder="Phone number" required />
-          <svg width="18" height="24" class="">
-            <use href=""></use>
-          </svg>
-        </div>
-        <div>
-          <label for="user-card" class="buy-modal-label">Card number</label>
-          <input class="buy-modal-input" type="number" name="user-card" id="user-card" placeholder="Enter card" required />
-          <svg width="18" height="24" class="">
-            <use href=""></use>
-          </svg>
-        </div>
-                 <label for="user-comment" class="buy-modal-label">Comment</label>
-          <textarea
-            placeholder="Enter text"
-            class="buy-modal-comment"
-            name="user-comment"
-            id="user-comment"
-          ></textarea>
-              </div>
-      <button type="submit" class="buy-modal-submit">Submit</button>
-    </form>
   </div>
+  <form class="buy-modal-form">
+    <div class="">
+      <label for="user-name" class="buy-modal-label">Personal information</label>
+      <input
+        class="buy-modal-input"
+        type="text"
+        name="user-name"
+        id="user-name"
+        placeholder="Name"
+        required
+      />
 
+      <label for="user-surname" class="buy-modal-label"></label>
+      <input
+        class="buy-modal-input"
+        type="text"
+        name="user-surname"
+        id="user-surname"
+        placeholder="Surname"
+        required
+      />
+
+      <label for="user-email" class="buy-modal-label">Email</label>
+      <input
+        class="buy-modal-input"
+        type="email"
+        name="user-email"
+        id="user-email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <div class="modal-icon-box-buy">
+        <label for="user-phone" class="buy-modal-label">Phone number</label>
+        <input
+          class="buy-modal-input"
+          type="number"
+          name="user-phone"
+          id="user-phone"
+          placeholder="Phone number"
+          required
+        />
+        <svg
+          width="32"
+          height="24"
+          viewBox="0 0 32 24"
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon-flag-buy"
+        >
+          <use href="/src/images/icons/icons.svg#icon-Flag"></use>
+        </svg>
+      </div>
+      <div class="modal-icon-box-buy">
+        <label for="user-card" class="buy-modal-label">Card number</label>
+        <input
+          class="buy-modal-input"
+          type="number"
+          name="user-card"
+          id="user-card"
+          placeholder="Enter card"
+          required
+        />
+        <svg
+          width="30"
+          height="18"
+          viewBox="0 0 30 18"
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon-mastercard-buy"
+        >
+          <use href="/src/images/icons/icons.svg#icon-Mastercard"></use>
+        </svg>
+      </div>
+      <label for="user-comment" class="buy-modal-label">Comment</label>
+      <textarea
+        placeholder="Enter text"
+        class="buy-modal-comment"
+        name="user-comment"
+        id="user-comment"
+      ></textarea>
+    </div>
+    <button type="submit" class="buy-modal-submit">Submit</button>
+  </form>
+</div>

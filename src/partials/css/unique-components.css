@@ -1,9 +1,9 @@
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 72px;
-    
+    margin: 0 auto;
   }
 
   .unique-box {
@@ -241,6 +241,11 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
   .unique-headline {
     color: #111;
     text-align: center;
