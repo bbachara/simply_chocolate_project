@@ -43,10 +43,12 @@
     max-width: 335px;
     align-self: center;
     font-family: Montserrat;
+
     font-style: normal;
     font-weight: 400;
     line-height: 18px; 
     letter-spacing: -0.28px;
+
   }
 
   .list {
@@ -126,10 +128,12 @@
     text-align: left;
     margin-left: 28px;
     margin-bottom: 28px;
+    font-family: Montserrat;
   }
 
   .front-card-title.second {
     color: #111;
+    font-family: Montserrat;
   }
 
   .front-card-img {
@@ -163,12 +167,14 @@
     flex-direction: column;
     row-gap: 8px;
     align-items: flex-start;
+    font-family: Montserrat;
   }
 
   .back-card-title {
     color: #111;
     letter-spacing: -0.54px;
     text-transform: uppercase;
+    font-family: Montserrat;
   }
 
   .back-card-buttons {
@@ -186,6 +192,7 @@
     justify-content: center;
     align-items: center;
     gap: 4px;
+    font-family: Montserrat;
   }
 
   .card-button-white {
@@ -197,10 +204,12 @@
     justify-content: center;
     align-items: center;
     gap: 4px;
+    font-family: Montserrat;
   }
 
   .card-back-text {
     text-align: left;
+    font-family: Montserrat;
   }
 }
 
@@ -232,6 +241,7 @@
   .unique-p {
     font-size: 14px;
     max-width: 486px;
+    font-family: Montserrat;
   }
 
   .cards {
@@ -269,6 +279,7 @@
 
   .unique-p {
     font-size: 14px;
+    font-family: Montserrat;
   }
 
   .flip-card {
@@ -290,6 +301,7 @@
     direction: column;
     align-items: flex-start;
     gap: 8px;
+    font-family: Montserrat;
   }
 
   .card-back-text {
@@ -297,10 +309,12 @@
     height: 162px;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-family: Montserrat;
   }
 
   .card-back-text.back-text {
     height: 140px;
+    font-family: Montserrat;
   }
 
   .card-button-orange,
