@@ -110,6 +110,7 @@
     position: fixed;
     left: 0;
     top: 0;
+
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
@@ -126,14 +127,14 @@
     height: 350px;
     border-radius: 15px;
     background: var(--beige);
-
+    cursor: default;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .subscribe-close-btn {
     display: flex;
     background: none;
-    color: #ffffff;
+    fill: #ffffff;
     justify-content: center;
     min-height: 24px;
     min-width: 24px;
@@ -145,12 +146,14 @@
     z-index: 1;
     cursor: pointer;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
   }
 
   .subscribe-close-btn:hover,
   .subscribe-close-btn:focus {
     border: none;
     color: var(--orange);
+    fill: orange;
   }
 
   .subscribe-close-icon {
@@ -291,7 +294,6 @@
 /* ================================================= TABLET 👇 ========================================= */
 
 @media screen and (min-width: 768px) {
-
   .subscribe-container {
     width: 467px;
     display: flex;
@@ -300,9 +302,8 @@
     gap: 24px;
 
     max-width: 758px;
-  
-    margin: 0 auto;
 
+    margin: 0 auto;
   }
 
   .subscribe-section-two {
@@ -397,6 +398,7 @@
     position: fixed;
     left: 0;
     top: 0;
+
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
@@ -413,14 +415,14 @@
     height: 412px;
     border-radius: 15px;
     background: #fff;
-
+    cursor: default;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .subscribe-close-btn {
     display: flex;
     background: none;
-    color: #fff;
+    fill: #fff;
     justify-content: center;
     min-height: 24px;
     min-width: 24px;
@@ -433,6 +435,7 @@
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
   }
 
   .subscribe-close-btn:hover,
@@ -582,7 +585,6 @@
     max-width: 1158px;
     padding: 0;
     margin: 0 auto;
-
   }
 
   .subscribe-section-two {
@@ -677,6 +679,7 @@
     position: fixed;
     left: 0;
     top: 0;
+
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
@@ -693,14 +696,14 @@
     height: 412px;
     border-radius: 15px;
     background: #fff;
-
+    cursor: default;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .subscribe-close-btn {
     display: flex;
     background: none;
-    color: #fff;
+    fill: #fff;
     justify-content: center;
     min-height: 24px;
     min-width: 24px;
@@ -713,6 +716,7 @@
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
   }
 
   .subscribe-close-btn:hover,
