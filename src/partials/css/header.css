@@ -4,7 +4,14 @@ html {
 
 
 /* __________MOBILE __________*/
-@media (min-width: 375px){
+
+@media (min-width: 320px){
+  .div-header{
+  max-width: 375px;
+  justify-content: center;
+  margin: auto;
+
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -57,6 +64,13 @@ html {
 
 
 @media (min-width: 768px)  {
+
+.div-header{
+  max-width: 768px;
+  justify-content: center;
+  margin: auto;
+
+}
 .header-container {
 margin-left: 10px;
 margin-right: 10px;
@@ -74,6 +88,12 @@ height:21;
   /*__________DESKTOP__________*/
 
 @media (min-width: 1200px) {
+.div-header{
+  max-width: 1200px;
+  justify-content: center;
+  margin: auto;
+
+}
 
   
     .header-container {
@@ -84,8 +104,6 @@ height:21;
       font-size: 14px;
       margin-top: 28px;
       margin-bottom: 36px;
-      margin-right: 20px;
-      
     }
   
     .chocolate {
@@ -119,10 +137,13 @@ height:21;
       font-weight: 500;
       line-height: 16px; 
       letter-spacing: -0.28px;
+      padding-left: 30px;
     }
 
     li:hover a{
       color: #fd9222;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
     }
 
     .social-icons{
@@ -236,6 +257,7 @@ height:21;
 
 .mobile-menu .link:hover {
   color: #fd9222;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-toggle {
@@ -251,6 +273,7 @@ height:21;
 
 .toggle-svg:hover{
   filter: brightness(0) saturate(100%) invert(71%) sepia(43%) saturate(4333%) hue-rotate(344deg) brightness(104%) contrast(98%);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .js-close-button {
@@ -266,12 +289,15 @@ height:21;
   justify-content: center;
   cursor: pointer;
   transition: transform 250ms ease-in-out;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .js-close-button:hover{
   filter: brightness(0) saturate(100%) invert(71%) sepia(43%) saturate(4333%) hue-rotate(344deg) brightness(104%) contrast(98%);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -307,10 +333,9 @@ height:21;
 .mobile-menu {
   display: inline-flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
   list-style: none;
-  padding-right: 50px;
-  padding-top: 40px;
+  
 }
 .toggle-svg{
   width: 24px;

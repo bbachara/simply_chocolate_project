@@ -1,13 +1,25 @@
-@media (max-width: 375px) {
+@media (min-width: 320px) {
   .card {
     width: 360px;
     height: 500px;
   }
+   .div-products{
+  max-width: 410px;
+  justify-content: center;
+  margin: auto;
+
 }
-@media (min-width: 769px) and (max-width: 1199px) {
+}
+@media (min-width: 768px) and (max-width: 1199px) {
   .slide-content .our{
   font-size: 24px;
   margin-bottom: 50px;
+}
+ .div-products{
+  max-width: 768px;
+  justify-content: center;
+  margin: auto;
+
 }
 .slide-content .product {
   font-size: 24px;
@@ -15,6 +27,13 @@
 }
 
 @media (min-width: 1200px) {
+
+  .div-products{
+  max-width: 1200px;
+  justify-content: center;
+  margin: auto;
+
+}
  .slide-content .product {
   font-size: 24px;
  }
@@ -51,13 +70,11 @@
   text-transform: uppercase;
 }
 
-.slide-container {
-  
-}
 .slide-content {
   
   margin: 0 40px;
   overflow: hidden; 
+  padding-bottom: 10px;
 }
 .card {
   width: 270px;
