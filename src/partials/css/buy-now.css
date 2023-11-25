@@ -19,7 +19,7 @@
     align-items: center;
   }
 
-  .backdrop {
+  .backdrop-buy{
     position: fixed;
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@
     pointer-events: none;
   }
 
-  .close-button {
+  .close-button-buy {
     position: absolute;
     height: 24px;
     width: 24px;
