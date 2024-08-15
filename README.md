@@ -2,8 +2,6 @@ https://bbachara.github.io/simply_chocolate_project/
 
 https://github.com/bbachara/simply_chocolate_project
 
-# parcel-project-template
-
 ## Zalezności
 
 Na komputerze musi być zainstalowana LTS-wersja [Node.js](https://nodejs.org/en/).
