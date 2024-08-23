@@ -3,13 +3,9 @@
 <div class="backdrop is-hidden" data-modal-r>
   <div class="modal">
     <div class="close-button-position" data-modal-close-r>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <path d="M18 6L6 18" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-        <path d="M6 6L18 18" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-
-     
-        </svg>
+<svg class="leave-close-icon" width="16" height="16">
+        <use href="/src/images/icons/icons.svg#icon-close-black-18dp-2-1"></use>
+      </svg>
     </div>
     <form class="modal-form-look">
     
@@ -17,14 +13,31 @@
         <label class="label-look">
           <input class="input-look" type="text" name="username" placeholder="Name" />
           <input class="input-look" type="email" name="email" placeholder="Enter tour email">
-          <div class="flag">
-            <div>
-            <div class="flag-top"></div>
-            <div class="flag-bottom"></div>
-          </div>
-            <div class="flag-number">+380</div>
-            <div><input class="flag-phone" type="tel" name="phone" id="phone" placeholder="Phone number"></div>
-          </div>
+                  <div class="leave-icon-box-buy">
+          <label for="user-phone" class="leave-modal-label"></label>
+          <input
+            class="leave-modal-input-phone"
+            type="number"
+            name="user-phone"
+            id="user-phone"
+            placeholder="Phone number"
+            required
+            pattern="[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}"
+            title="XX-XXX-XX-XX"
+
+          />
+          <svg
+            width="32"
+            height="24"
+            viewBox="0 0 32 24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="leave-flag-buy"
+          >
+            <use href="/src/images/icons/icons.svg#icon-Flag"></use>
+          </svg>
+               <span class="leave-input-tel-text">+380</span>
+        </span>
+        </div>
           <input class="input-look_textarea" type="text" name="textarea" placeholder="Enter text">
         </label>
         <button class="send-button" type="submit">Send</button>
